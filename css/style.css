@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    height: 15vh;
+    background-color: red;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+a:hover {
+    background-color: red;
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
+span {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
