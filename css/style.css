@@ -46,3 +46,18 @@ span {
     align-items: center;
     padding: 14px;
 }
+
+.figure-cabecera {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+img {
+    object-fit: cover;
+    width: 100vw;
+    position: absolute;
+    top: -250px;
+
+}
