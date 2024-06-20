@@ -13,14 +13,14 @@ header {
 
 footer {
     height: 15vh;
-    background-color: red;
+    background-color: black;
 }
 
 .layout {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    height: 1000px   ;
+    height: 1130px;
 }
 
 main {
@@ -35,7 +35,7 @@ main::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 143%;
+    height: 164%;
     background-color: rgba(255, 255, 255, 0.7);
     /* z-index: 1; */
 
@@ -46,6 +46,7 @@ main::before {
     text-decoration: none;
     padding: 8px;
 }
+
 a:hover {
     background-color: red;
     border: 1px solid green;
@@ -70,10 +71,62 @@ span {
     position: relative;
 }
 
-img {
+.img-cabecera {
     object-fit: cover;
     width: 100vw;
     position: absolute;
     top: -250px;
+}
 
+.main-h2 {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.main-h3 {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.images-travels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    position: relative;
+    z-index: 2;
+}
+
+#one {
+    width: 250px;
+}
+
+#two {
+    width: 300px;
+}
+
+#three {
+    width: 250px;
+}
+
+.list-table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
 }
