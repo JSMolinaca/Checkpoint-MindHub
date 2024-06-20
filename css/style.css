@@ -130,3 +130,11 @@ th, td {
     padding: 8px;
     border: 1px solid black;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    color: white;
+}
